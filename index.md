@@ -62,16 +62,7 @@
             <div class="botton">查询</div>
         </div>
         <table id="result">
-            <!--<tr>
-               <td>周一12月11日 实时4C° </td>
-                <td><img src=""alt</td>
-
-
-
-            </tr>-->
-
-
-        </table>
+            </table>
     </div>
     <script type="text/template" id="templateid">
         <%for(var i=0;i<list.length;i++){%>
@@ -105,17 +96,7 @@
 var html=template("templateid",obj);
 console.log(obj);
 $("#result").html(html);
-
-            }
-
-            
-
-
-
-        })
-
-
-    })
+}}) })
         </script>
 </body>
 </html>
